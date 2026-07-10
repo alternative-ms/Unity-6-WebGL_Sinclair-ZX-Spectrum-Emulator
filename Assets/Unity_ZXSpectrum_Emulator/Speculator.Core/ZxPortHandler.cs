@@ -40,7 +40,7 @@ namespace Speculator.Core
             m_pcToSpectrumKeyMap.Add((K(KeyCode.Equals), K(KeyCode.RightShift, KeyCode.L)));
             m_pcToSpectrumKeyMap.Add((K(KeyCode.Minus), K(KeyCode.RightShift, KeyCode.J)));
             m_pcToSpectrumKeyMap.Add((K(KeyCode.Slash), K(KeyCode.RightShift, KeyCode.V)));
-            m_pcToSpectrumKeyMap.Add((K(KeyCode.Quote), K(KeyCode.RightShift, KeyCode.Alpha7)));
+            m_pcToSpectrumKeyMap.Add((K(KeyCode.Quote), K(KeyCode.RightShift, KeyCode.P))); // KeyCode.Alpha7))); // change to allow type " via Right-Shift + P
             m_pcToSpectrumKeyMap.Add((K(KeyCode.Semicolon), K(KeyCode.RightShift, KeyCode.O)));
             m_pcToSpectrumKeyMap.Add((K(KeyCode.LeftAlt), K(KeyCode.LeftShift, KeyCode.RightShift)));
 
